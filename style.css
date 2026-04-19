@@ -16,7 +16,7 @@ body {
   color: #352b21;
 }
 
-img {
+.bodyimg {
   height: auto; 
   display: block; 
   padding: 1.5rem; 
@@ -25,13 +25,13 @@ img {
 }
 
 .head-container {
-  max-width: 1000;
+  max-width: 1000px;
   height: 15em; 
   display: flex; 
   justify-content: space-between; 
-  flex-direction: row; 
+  flex-direction: center; 
   background-color: #6f5145; 
-  flex-direction: wrap; 
+  flex-wrap: wrap; 
   padding: 1.5rem 2rem; 
 }
 
@@ -48,6 +48,11 @@ footer {
   display: flex; 
   align-items: flex-start; 
   width: 50%; 
+}
+
+nav {
+  display: flex;
+  gap: 1.5rem;
 }
 
 a {
@@ -72,3 +77,19 @@ h2{
   padding: 2rem;
 }
 
+.year {
+  border-radius: 15px; 
+  border: .15rem solid #a6d0e4; 
+  background-color: #a6d0e4; 
+  box-shadow: 0 2px 2px 0 rgba(126, 93, 74, 0.79);
+  padding: .5rem; 
+  overflow: hidden;
+  color: #6f5145;
+  text-align: center;
+  
+}
+
+.description {
+  padding: 1rem; 
+  text-align: center;
+}
