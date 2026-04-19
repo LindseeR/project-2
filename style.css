@@ -34,7 +34,6 @@ body {
 }
 
 .head-container {
-  max-width: 1000px;
   width: auto; 
   height: 9em; 
   display: flex; 
@@ -45,7 +44,6 @@ body {
 }
 
 footer {
-  max-width: 1000px;
   display: flex; 
   flex-direction: column; 
   background-color: #6f5145; 
@@ -82,7 +80,7 @@ h1{
 
 h2{
   text-align: center; 
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .year {
