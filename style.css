@@ -1,12 +1,50 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box; 
 }
 
 html {
   color: #222;
-  line-height: 1.4;
-  font-size: 16pt;
+  line-height: 1.6;
+  font-size: 16px;
+  background-color: #fff7f0; 
+}
+
+body {
+  font-family: Georgia, Serif; 
+  color: #352b21;
+}
+
+img {
+  max-width: 100%;
+  height: auto; 
+  display: block; 
+}
+
+.head-container {
+  max-width: 1000;
+  display: flex; 
+  justify-content: space-between; 
+  flex-direction: row; 
+  background-color: #6f5145; 
+  flex-direction: wrap; 
+}
+
+.logo {
+  display: flex; 
+  align-items: flex-start; 
+  width: 100px; 
+  margin: 20px; 
+}
+
+a {
+ text-decoration: none; 
+ color: #ebd2c9;
+}
+
+a:hover {
+  color: #43b0b1; 
 }
 
 
